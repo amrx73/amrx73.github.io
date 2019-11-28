@@ -2,9 +2,13 @@
 <html>
 <head>
   <script>
-    function bgswitch(){
-        document.style.background = ('black')?'white':'black';
-        document.style.color = ('black')?'white':'black';
+    function bgswitchb(){
+        document.body.style.background = 'black';
+        document.body.style.color = 'white';
+    }
+    function bgswitchw(){
+        document.body.style.background = 'white';
+        document.body.style.color = 'black';
     }
   </script>
 <style> 
@@ -71,6 +75,7 @@
 <img src="feather_border.png">
   <img src="pilgrim_hat_border.png">
 <br><br><br>
-  <button type="button" onclick="bgswitch();">switch background color</button>
+  <button type="button" onclick="bgswitchb();">black</button>
+  <button type="button" onclick="bgswitchw();">white</button>
 </body>
 </html>
