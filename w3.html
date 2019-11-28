@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    function bgswitch(){
+        document.body.style.background = 'black'?'white':'black';
+        document.body.style.color = 'black'?'white':'black';
+    }
+  </script>
 <style> 
 #borderimg1 { 
   border: 10px solid transparent;
@@ -64,7 +70,7 @@
 <img src="pumpkin_pie_border.png">
 <img src="feather_border.png">
   <img src="pilgrim_hat_border.png">
-
-
+<br><br><br>
+  <button type="button" onclick="bgswitch();">switch background color</button>
 </body>
 </html>
